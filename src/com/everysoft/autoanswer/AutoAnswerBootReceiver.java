@@ -31,6 +31,6 @@ public class AutoAnswerBootReceiver extends BroadcastReceiver {
 	public void onReceive(Context context, Intent intent) {
 		AutoAnswerNotifier notifier = new AutoAnswerNotifier(context);
 		notifier.updateNotification();
-	}
+	}//Test changes
 
 }
